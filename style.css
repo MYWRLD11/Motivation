@@ -1,0 +1,157 @@
+body{
+    font-family:"Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+.main{
+    flex: 1;
+}
+
+footer {
+    text-align: right;
+    color: midnightblue;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: justify;
+    text-align: center;
+  }
+.initiates{
+    text-align: right;
+  color: midnightblue;
+  }  
+
+.guides{
+    text-align: right;
+    color: #323232;
+}
+
+.maintains{
+    text-align: right;
+    color: #B2B5E0;
+}
+
+.goal{
+    text-align: right;
+    color: #E1B0AC;
+}
+
+.behaviors{
+    text-align: right;
+    color: #01257D;
+}
+
+.tile-image {
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+.card01{
+    width: 45%;
+}
+
+.left01{
+    float: left;
+}
+
+.card02{
+    width: 45%;
+}
+.right02{
+    float: right;
+}
+
+.left03{
+    float: left;
+}
+
+.card03{
+    width: 45%;
+}
+
+.right04{
+    float: right;
+}
+
+.card04{
+    width: 45%;
+}
+
+@media (max-width: 680px){
+    h1{
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    .card01{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        text-align: center;
+    }
+
+    .card01 img {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    .card02{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        text-align: center;
+    }
+    
+    .card02 img {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    .card03{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        text-align: center;
+    }
+
+    .card03 img {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    .card04{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        text-align: center;
+    }
+
+    .card04 img {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+}
