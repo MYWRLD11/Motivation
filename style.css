@@ -85,6 +85,54 @@ h1 {
     width: 45%;
 }
 
+.left05{
+    float: left;
+}
+
+.card05{
+    width: 45%;
+}
+
+.right06{
+    float: right;
+}
+
+.card06{
+    width: 45%;
+}
+
+.left07{
+    float: left;
+}
+
+.card07{
+    width: 45%;
+}
+
+.right08{
+    float: right;
+}
+
+.card08{
+    width: 45%;
+}
+
+.left09{
+    float: left;
+}
+
+.card{
+    width: 45%;
+}
+
+.right10{
+    float: right;
+}
+
+.card10{
+    width: 45%;
+}
+
 @media (max-width: 680px){
     h1{
         font-size: 3.3rem;
@@ -154,4 +202,101 @@ h1 {
         display: inline;
         object-fit: cover;
     }
+
+    .card05{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        text-align: center;
+    }
+
+    .card05 img {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    .card06{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        text-align: center;
+    }
+
+    .card06 img {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    .card07{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        text-align: center;
+    }
+
+    .card07 img {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    .card08{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        text-align: center;
+    }
+
+    .card08 img {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    .card09{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        text-align: center;
+    }
+
+    .card09 img {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    .card10{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        text-align: center;
+    }
+
+    .card10 img {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
 }
